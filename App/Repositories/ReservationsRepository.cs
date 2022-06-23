@@ -26,14 +26,13 @@ namespace cinema_manager_api.Repositories
 
           return reservation.seanseId.Equals(item.seanseId)
           && reservation.seatNumber.Equals(item.seatNumber)
-          && !reservation.isPermanent && reservationStartTime < minuteAgo;
-        }
+          && !reservation.isPermanent
+          && reservationStartTime < minuteAgo;
+        });
 
-        );
         if (potentiallyIdenticalItem is null)
         {
-          Reservation newItem = new Reservation(item);
-          items.Add(newItem);
+          items.Add(item);
           return "success";
         }
         else

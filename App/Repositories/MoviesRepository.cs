@@ -4,7 +4,7 @@ using cinema_manager_api.Models;
 
 namespace cinema_manager_api.Repositories
 {
-  class MoviesRepository : GenericRepository<Movie>
+  public class MoviesRepository : GenericRepository<Movie>
   {
     public override List<Movie> items
     {

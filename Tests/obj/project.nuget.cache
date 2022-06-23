@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uTw+cLzDnRgEaC+/ZVjJ+24/Gl84lR2goedkOXwkI4X2jYXLcjhl+9yBaRt5R5GMgVp8zbgreG9E6wTvRQ2ucg==",
+  "dgSpecHash": "LNUC0Ybwoz56uOCDdDOYoUlqHCBpE17PaQVQnJaNMRyl3ytKw23sN8ZrP2Gg+qQA/e1UalzTjE3fjgNZ7QEBBg==",
   "success": true,
-  "projectFilePath": "D:\\Projekty\\cinema-manager-api\\Tests\\Tests.csproj",
+  "projectFilePath": "D:\\Projekty\\Studia\\cinema-manager-api\\Tests\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Hubert\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\Hubert\\.nuget\\packages\\microsoft.codecoverage\\16.9.4\\microsoft.codecoverage.16.9.4.nupkg.sha512",
